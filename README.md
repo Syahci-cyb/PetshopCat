@@ -153,4 +153,3 @@ Project ini dikerjakan secara kolaboratif oleh tim **"Kami Ber Lima"** sebagai t
 
 ---
 © 2026 PetshopCat. Dibuat menggunakan Flutter.
-```
