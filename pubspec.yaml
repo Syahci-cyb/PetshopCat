@@ -1,0 +1,53 @@
+name: petshopcat
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.2.1  # ✅ Cukup digabung di sini, jangan buat blok dependencies baru
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.16.0
+  cloud_firestore: ^4.14.0
+  url_launcher: ^6.2.1 # Tambahkan ini
+  firebase_storage: ^11.6.9
+  image_picker: ^1.0.7
+  pdf: ^3.10.8
+  printing: ^5.12.0
+
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+  
+
+flutter:
+  uses-material-design: true
+
+  # ✅ BAGIAN ASSETS
+  assets:
+    - assets/images/
+
+  # ✅ BAGIAN FONTS
+  fonts:
+  - family: DM Sans
+    fonts:
+      - asset: fonts/DMSans-Regular.ttf
+      - asset: fonts/DMSans-Bold.ttf
+        weight: 700
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/logo.png"
+  adaptive_icon_background: "#F2F2F2" # Warna background logo (Pink PetshopCat) untuk Android versi baru
+  adaptive_icon_foreground: "assets/icons/logo.png"
