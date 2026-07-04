@@ -101,7 +101,7 @@ Jalankan perintah ini di dalam folder project untuk mendownload semua package ya
 flutter pub get
 ```
 
-### 4. Setup Firebase (PENTING!)
+### 4. Setup Firebase
 Karena project ini menggunakan database Firebase, Anda harus membuat project Firebase sendiri:
 1. Buka [Firebase Console](https://console.firebase.google.com/), klik **Add Project**.
 2. Daftarkan aplikasi Android/iOS dan download file konfigurasi:
@@ -122,7 +122,7 @@ flutter run
 
 ---
 
-## 📸 Screenshot Aplikasi *(Opsional)*
+## 📸 Screenshot Aplikasi
 *Anda bisa menambahkan gambar tampilan aplikasi di sini menggunakan format berikut:*
 
 <table>
